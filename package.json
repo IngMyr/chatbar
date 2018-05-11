@@ -1,6 +1,9 @@
 {
   "name": "chatbar",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.9"
+  },
   "private": true,
   "devDependencies": {
     "jest-expo": "26.0.0",

@@ -14,8 +14,8 @@ export default class extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.wrapper}>
-                    <Image style={styles.image} source={{uri: "a"}}/>
-                    <Text style={styles.title}>Quotes</Text>
+                    {/* <Image style={styles.image} source={{uri: "a"}}/> */}
+                    <Text style={styles.title}>Chatbar</Text>
                 </View>
                 <View style={styles.activityIndicatorContainer}>
                     <ActivityIndicator animating={true}/>

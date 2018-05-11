@@ -10,13 +10,23 @@ const styles = StyleSheet.create({
         backgroundColor: color.white
     },
 
-    topContainer:{
+    topContainerOld:{
         flex:1,
         paddingHorizontal:15,
         paddingBottom: padding * 2,
         justifyContent:"center",
         alignItems:"center",
         backgroundColor: "#FF553F",
+    },
+
+
+    topContainer:{
+        flex:1,
+        paddingHorizontal:15,
+        paddingBottom: padding * 2,
+        justifyContent:"center",
+        alignItems:"center",
+        backgroundColor: color.main,
     },
 
     image:{
@@ -73,7 +83,7 @@ const styles = StyleSheet.create({
     },
 
     button:{
-        backgroundColor: "#FF553F",
+        backgroundColor: color.main,
         height: normalize(55)
     },
 
@@ -98,7 +108,7 @@ const styles = StyleSheet.create({
 
     signInText:{
         fontSize: fontSize.regular,
-        color: "#FF553F",
+        color: color.mediumTextOnWhite,
         fontFamily: fontFamily.medium
     },
 

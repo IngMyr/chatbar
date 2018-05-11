@@ -52,6 +52,7 @@ class Welcome extends React.Component {
     }
 
     onError(error) {
+        console.log(error);
         alert(error.message);
     }
 
@@ -59,8 +60,8 @@ class Welcome extends React.Component {
         return (
                 <View style={styles.container}>
                     <View style={styles.topContainer}>
-                        <Image style={styles.image} source={{uri: "a"}}/>
-                        <Text style={styles.title}>Quotes</Text>
+                        {/* <Image style={styles.image} source={{uri: "a"}}/>  */}
+                        <Text style={styles.title}>Chatbar</Text>
                     </View>
 
                     <View style={styles.bottomContainer}>

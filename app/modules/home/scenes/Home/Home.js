@@ -1,11 +1,14 @@
 import React from 'react';
 var { View, StyleSheet, Alert } = require('react-native');
 
-import {Button} from 'react-native-elements'
+import {Button, Header} from 'react-native-elements'
 import {Actions} from 'react-native-router-flux';
 import {connect} from 'react-redux';
 
+import MainHeader from "../../components/MainHeader";
+
 import styles from "./styles"
+import { text } from "../../../../styles/theme";
 
 import { actions as auth, theme } from "../../../auth/index"
 const { signOut } = auth;
